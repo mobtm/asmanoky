@@ -25,21 +25,25 @@ h2{
 }
 
 .main{
-    display: flex;
-    background-color: #111;
+    display: none;
+    background-color: #fafafa;
     height: 100vh;
+}
+
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .photo{
-    width: 70%;
-    height: 100vh;
+
     background-color: #fafafa;
 }
 
-.photo img{
+.photo-item img{
     height: 100vh;
     position: absolute;
-    background-size: cover;
 }
 
 .content{
@@ -48,6 +52,61 @@ h2{
     color: #525252;
 }
 
-.item{
-    display: hidden;
+.text-item{
+    min-height: 520px;
+}
+
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#left-arrow{
+    display: block;
+}
+
+#right-arrow{
+    float: right;
+    display: block;
+}
+
+#home-btn{
+    display: none;
+}
+
+#home-btn-right{
+    float: right;
+    display: none;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+
+#logo{
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 25%;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
