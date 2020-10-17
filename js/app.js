@@ -72,18 +72,4 @@ function photoLeft(){
         photoItems[y].classList.add("hidden");
         photoItems[y-1].classList.remove("hidden");
     }
-    
-    // photoItems[y].classList.add("hidden");
 }
-
-// function takeToHomeStart(){
-//     document.getElementById("home").style.display = "initial";
-//     document.getElementById("main").style.display = "none";
-//     return x=0, y=0;
-// }
-
-// function takeToHomeEnd(){
-//     document.getElementById("home").style.display = "initial";
-//     document.getElementById("main").style.display = "none";
-//     return x=0, y=0;
-// }
